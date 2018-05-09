@@ -8,12 +8,6 @@ $container['client'] = function ($c) {
     return new \GuzzleHttp\Client($settings);
 };
 
-// view renderer
-//$container['renderer'] = function ($c) {
-//    $settings = $c->get('settings')['renderer'];
-//    return new Slim\Views\PhpRenderer($settings['template_path']);
-//};
-
 // rubellum/slim-blade-view
 $container['renderer'] = function ($c) {
     $settings = $c->get('settings')['renderer'];
