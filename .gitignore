@@ -1,4 +1,5 @@
 /vendor/
 /logs/*
 /data/*
+/cache/*
 !/logs/README.md
